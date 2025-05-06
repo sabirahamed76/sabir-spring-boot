@@ -1,0 +1,139 @@
+2025-05-05 13:39:01,385 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@21213b92: startup date [Mon May 05 13:39:01 SGT 2025]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2025-05-05 13:39:02,404 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\workstation\workspace\workspace-java\sabir-spring-boot\sabir-spring-IBMMQ\apache-activemq-5.15.16\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-05-05 13:39:02,560 | INFO  | PListStore:[D:\workstation\workspace\workspace-java\sabir-spring-boot\sabir-spring-IBMMQ\apache-activemq-5.15.16\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-05-05 13:39:02,859 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-55937-1746423542648-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-05-05 13:39:02,931 | INFO  | Listening for connections at: tcp://SABIR-HOME:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-05-05 13:39:02,931 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-05-05 13:39:02,948 | INFO  | Listening for connections at: amqp://SABIR-HOME:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-05-05 13:39:02,949 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-05-05 13:39:02,967 | INFO  | Listening for connections at: stomp://SABIR-HOME:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-05-05 13:39:02,978 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-05-05 13:39:02,986 | INFO  | Listening for connections at: mqtt://SABIR-HOME:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-05-05 13:39:02,994 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-05-05 13:39:03,001 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-05-05 13:39:03,080 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-05-05 13:39:03,209 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@6d025197{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-05-05 13:39:03,262 | INFO  | Listening for connections at ws://SABIR-HOME:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-05-05 13:39:03,262 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-05-05 13:39:03,265 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-55937-1746423542648-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-05-05 13:39:03,269 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-05-05 13:39:03,959 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-05-05 13:39:03,959 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-05-05 14:23:51,479 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-55937-1746423542648-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-21
+2025-05-05 14:23:51,484 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2025-05-05 14:23:51,484 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2025-05-05 14:23:51,494 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2025-05-05 14:23:51,495 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2025-05-05 14:23:51,513 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2025-05-05 14:23:51,515 | INFO  | PListStore:[D:\workstation\workspace\workspace-java\sabir-spring-boot\sabir-spring-IBMMQ\apache-activemq-5.15.16\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-21
+2025-05-05 14:23:51,531 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2025-05-05 14:23:51,532 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2025-05-05 14:23:51,535 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2025-05-05 14:23:51,548 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-55937-1746423542648-0:1) uptime 44 minutes | org.apache.activemq.broker.BrokerService | Thread-21
+2025-05-05 14:23:51,548 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-55937-1746423542648-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-21
+2025-05-05 14:23:51,548 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@21213b92: startup date [Mon May 05 13:39:01 SGT 2025]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-21
+2025-05-05 14:24:01,941 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@21213b92: startup date [Mon May 05 14:24:01 SGT 2025]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2025-05-05 14:24:02,672 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\workstation\workspace\workspace-java\sabir-spring-boot\sabir-spring-IBMMQ\apache-activemq-5.15.16\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-05-05 14:24:02,751 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-05-05 14:24:02,803 | INFO  | PListStore:[D:\workstation\workspace\workspace-java\sabir-spring-boot\sabir-spring-IBMMQ\apache-activemq-5.15.16\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-05-05 14:24:02,931 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57149-1746426242803-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-05-05 14:24:02,935 | INFO  | Listening for connections at: tcp://SABIR-HOME:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-05-05 14:24:02,951 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-05-05 14:24:02,953 | INFO  | Listening for connections at: amqp://SABIR-HOME:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-05-05 14:24:02,953 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-05-05 14:24:02,959 | INFO  | Listening for connections at: stomp://SABIR-HOME:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-05-05 14:24:02,959 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-05-05 14:24:02,966 | INFO  | Listening for connections at: mqtt://SABIR-HOME:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-05-05 14:24:02,968 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-05-05 14:24:02,976 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-05-05 14:24:03,019 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-05-05 14:24:03,134 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@6ed3f258{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-05-05 14:24:03,185 | INFO  | Listening for connections at ws://SABIR-HOME:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-05-05 14:24:03,186 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-05-05 14:24:03,186 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57149-1746426242803-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-05-05 14:24:03,186 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-05-05 14:24:03,775 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-05-05 14:24:03,775 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-05-05 14:24:38,138 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57149-1746426242803-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-05-05 14:24:38,143 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-05-05 14:24:38,149 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-05-05 14:24:38,152 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-05-05 14:24:38,155 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-05-05 14:24:38,162 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-05-05 14:24:38,166 | INFO  | PListStore:[D:\workstation\workspace\workspace-java\sabir-spring-boot\sabir-spring-IBMMQ\apache-activemq-5.15.16\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2025-05-05 14:24:38,167 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-05-05 14:24:38,167 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-05-05 14:24:38,168 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-05-05 14:24:38,178 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57149-1746426242803-0:1) uptime 35.522 seconds | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-05-05 14:24:38,180 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57149-1746426242803-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-05-05 14:24:38,181 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@21213b92: startup date [Mon May 05 14:24:01 SGT 2025]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2025-05-05 14:24:52,165 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@136b3187: startup date [Mon May 05 14:24:52 SGT 2025]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2025-05-05 14:24:52,844 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\workstation\workspace\workspace-java\sabir-spring-boot\sabir-spring-IBMMQ\apache-activemq-5.15.16\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-05-05 14:24:52,924 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2025-05-05 14:24:52,975 | INFO  | PListStore:[D:\workstation\workspace\workspace-java\sabir-spring-boot\sabir-spring-IBMMQ\apache-activemq-5.15.16\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2025-05-05 14:24:53,128 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57174-1746426292983-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-05-05 14:24:53,145 | INFO  | Listening for connections at: tcp://SABIR-HOME:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-05-05 14:24:53,147 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-05-05 14:24:53,150 | INFO  | Listening for connections at: amqp://SABIR-HOME:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-05-05 14:24:53,152 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-05-05 14:24:53,155 | INFO  | Listening for connections at: stomp://SABIR-HOME:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-05-05 14:24:53,157 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-05-05 14:24:53,160 | INFO  | Listening for connections at: mqtt://SABIR-HOME:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-05-05 14:24:53,161 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-05-05 14:24:53,167 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2025-05-05 14:24:53,223 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2025-05-05 14:24:53,324 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@603d3c66{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2025-05-05 14:24:53,375 | INFO  | Listening for connections at ws://SABIR-HOME:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2025-05-05 14:24:53,376 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-05-05 14:24:53,377 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57174-1746426292983-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-05-05 14:24:53,378 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-05-05 14:24:54,078 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2025-05-05 14:24:54,079 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2025-05-05 14:29:22,314 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57174-1746426292983-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-05-05 14:29:22,323 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-05-05 14:29:22,329 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-05-05 14:29:22,335 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-05-05 14:29:22,340 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-05-05 14:29:22,386 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-05-05 14:29:22,392 | INFO  | PListStore:[D:\workstation\workspace\workspace-java\sabir-spring-boot\sabir-spring-IBMMQ\apache-activemq-5.15.16\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2025-05-05 14:29:22,394 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-05-05 14:29:22,396 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-05-05 14:29:22,398 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-05-05 14:29:22,412 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57174-1746426292983-0:1) uptime 4 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-05-05 14:29:22,415 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57174-1746426292983-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-05-05 14:29:22,417 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@136b3187: startup date [Mon May 05 14:24:52 SGT 2025]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2025-05-05 14:31:43,649 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7f6b3ed4: startup date [Mon May 05 14:31:43 SGT 2025]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2025-05-05 14:31:44,348 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\workstation\workspace\workspace-java\sabir-spring-boot\sabir-spring-IBMMQ\apache-activemq-5.15.16\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-05-05 14:31:44,437 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2025-05-05 14:31:44,486 | INFO  | PListStore:[D:\workstation\workspace\workspace-java\sabir-spring-boot\sabir-spring-IBMMQ\apache-activemq-5.15.16\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2025-05-05 14:31:44,641 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57353-1746426704497-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-05-05 14:31:44,658 | INFO  | Listening for connections at: tcp://SABIR-HOME:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-05-05 14:31:44,658 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-05-05 14:31:44,661 | INFO  | Listening for connections at: amqp://SABIR-HOME:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-05-05 14:31:44,663 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-05-05 14:31:44,663 | INFO  | Listening for connections at: stomp://SABIR-HOME:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-05-05 14:31:44,669 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-05-05 14:31:44,673 | INFO  | Listening for connections at: mqtt://SABIR-HOME:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-05-05 14:31:44,675 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-05-05 14:31:44,679 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2025-05-05 14:31:44,737 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2025-05-05 14:31:44,847 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9f4475{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2025-05-05 14:31:44,889 | INFO  | Listening for connections at ws://SABIR-HOME:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2025-05-05 14:31:44,889 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-05-05 14:31:44,889 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57353-1746426704497-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-05-05 14:31:44,898 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-05-05 14:31:45,493 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2025-05-05 14:31:45,493 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2025-05-05 17:46:08,259 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57353-1746426704497-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-21
+2025-05-05 17:46:08,276 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2025-05-05 17:46:08,290 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2025-05-05 17:46:08,293 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2025-05-05 17:46:08,308 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2025-05-05 17:46:08,344 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2025-05-05 17:46:08,356 | INFO  | PListStore:[D:\workstation\workspace\workspace-java\sabir-spring-boot\sabir-spring-IBMMQ\apache-activemq-5.15.16\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-21
+2025-05-05 17:46:08,356 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2025-05-05 17:46:08,356 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2025-05-05 17:46:08,371 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2025-05-05 17:46:08,387 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57353-1746426704497-0:1) uptime 3 hours 14 minutes | org.apache.activemq.broker.BrokerService | Thread-21
+2025-05-05 17:46:08,406 | INFO  | Apache ActiveMQ 5.15.16 (localhost, ID:SABIR-HOME-57353-1746426704497-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-21
+2025-05-05 17:46:08,410 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7f6b3ed4: startup date [Mon May 05 14:31:43 SGT 2025]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-21
