@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.home.sabir</groupId>
-	<artifactId>sabir-spring-boot</artifactId>
+	<artifactId>sabir-spring-DataJPA</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sabir-spring-boot</name>
-	<description>Demo project for Spring Boot</description>
+	<name>sabir-spring-DataJPA</name>
+	<description>Demo project for Spring Boot DataJPA</description>
 	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
